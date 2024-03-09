@@ -1,8 +1,6 @@
 "use client";
-import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-import NavLink from "next/link";
 import "./css/common.css";
 // add bootstrap css
 import "bootstrap/dist/css/bootstrap.css";
@@ -39,6 +37,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
         <div id="headerMenu" className="top_nav">
+          
           {navLinks.map((link, index) => (
             <Link
               key={index}

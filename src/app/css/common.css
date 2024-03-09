@@ -98,7 +98,7 @@ h1 {
   /* Style the links inside the navigation bar */
   .top_nav a {
     float: left;
-    color: #f2f2f2;
+    color: #b0b0b0;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -108,13 +108,15 @@ h1 {
   /* Change the color of links on hover */
   .top_nav a:hover {
     background-color: #ddd;
-    color: black;
+    color: black !important;
+    font-weight: bold;
   }
   
   /* Add a color to the active/current link */
   .top_nav a.active {
-    background-color: #04AA6D;
+    /* background-color: #04AA6D; */
     color: white;
+    font-weight: bold;
   }
   .divEXpenseAddEdit {
     width: 90%;
